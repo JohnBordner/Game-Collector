@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter game title"
+        android:textColor="#F89FFFE1"
+        android:textColorHint="#656565" />
+
+    <EditText
+        android:id="@+id/editTextYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter release year"
+        android:inputType="number"
+        android:textColor="#F89FFFE1"
+        android:textColorHint="#494949" />
+
+    <EditText
+        android:id="@+id/editTextConsole"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter game console"
+        android:textColor="#F89FFFE1"
+        android:textColorHint="#494949" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonAddGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#F89FFFE1"
+        android:text="Add Game" />
+</LinearLayout>
